@@ -1,3 +1,18 @@
+#задание 1
+i = int(input('введите число:'))
+n = input('введите что нибудь:')
+st = str(input('введите строковое:'))
+fl = float(input('введите float:'))
+
+print(1,n,st,fl)
+print('целое',type(i),i)
+print('класс присвоился автоматически',type(n),n)
+print('строка',type(st),st)
+print('с запятой',type(fl),fl)
+
+print ('целое + строка',str(i)+st)
+
+
 # задание 2
 n = int(input('введите время в секудах:'))
 h = n//3600
@@ -27,8 +42,6 @@ print('x=', x)
 # задание 5,6
 t = int(input('выручка?'))
 z = int(input('издержки?'))
-
-
 if (t-z) > 0:
     print ('фирма отработала с прибылью',(t-z))
     v = int(input('число сотрудников?'))
@@ -48,4 +61,4 @@ while end > start:
     day += 1
     print(day,'- день :',start)
 print('на',day,'- день будет пробегать не менее:',end, 'км')
-# изучение git
+# изучение git2
